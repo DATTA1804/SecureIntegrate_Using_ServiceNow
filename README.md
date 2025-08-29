@@ -106,15 +106,15 @@ With SecureIntegrate, every connected application is continuously analyzed for h
 
 10. Registering and Triggering Events:
     
-   • Logs anomalies as ServiceNow events.
+      • Logs anomalies as ServiceNow events.
    
-   • Triggers automated workflows for real-time responses.
+      • Triggers automated workflows for real-time responses.
 
 11. Email & Notifications:
     
-   • Sends alerts via email, Teams, or Slack when suspicious activity is detected.
+      • Sends alerts via email, Teams, or Slack when suspicious activity is detected.
    
-   • Keeps admins and SecOps informed instantly.
+      • Keeps admins and SecOps informed instantly.
 
 ---
 
