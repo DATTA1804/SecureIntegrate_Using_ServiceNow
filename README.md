@@ -6,6 +6,8 @@
 
 A custom ServiceNow application to monitor, secure, and analyze third-party applications integrated with ServiceNow. Built to showcase end-to-end ServiceNow application development using APIs, monitoring modules, security rules, and reporting dashboards. SecureIntegrate ensures continuous protection by detecting malware, unauthorized changes, and suspicious activities while providing real-time alerts, dashboards, and automated workflows for incident management.
 
+---
+
 🚀 Features :-
 
 ● Continuous monitoring of third-party apps integrated with ServiceNow
@@ -48,58 +50,84 @@ With SecureIntegrate, every connected application is continuously analyzed for h
 -> Approved Apps: If no threat is detected, the system updates dashboards and keeps apps in “Healthy” status.
 -> Flagged Apps: If malware or suspicious behavior is detected, incidents are created automatically for security teams.
 
-Tables & Fields
-• Organizes monitored application data, threat logs, and anomaly detection results.
-• Ensures all integration health data is structured and reportable.
+1. Tables & Fields:-
+ 
+   • Organizes monitored application data, threat logs, and anomaly detection results.
 
-Roles & Group Membership
-• Restricts visibility of sensitive monitoring data.
-• Assigns responsibilities to administrators and SecOps teams.
+   • Ensures all integration health data is structured and reportable.
 
-ACLs (Access Control Rules)
-• Protects monitoring results and logs from unauthorized access.
-• Enforces compliance with IT security policies.
+2. Roles & Group Membership
+   
+   • Restricts visibility of sensitive monitoring data.
 
-Record Producers
-• Enables admins to quickly register a new integration for monitoring.
-• Ensures consistent data capture for new third-party applications.
+   • Assigns responsibilities to administrators and SecOps teams.
 
-Workflows
-• Automates threat detection to incident creation and escalation.
-• Connects monitoring results directly with SecOps and ITSM modules.
+3. ACLs (Access Control Rules)
 
-Business Rules
-• Applies custom logic to detect anomalies in real time.
-• Initiates automated remediation actions when risks are found.
+   • Protects monitoring results and logs from unauthorized access.
+   
+   • Enforces compliance with IT security policies.
 
-Client Scripts
-• Enhances UI forms with validation and interactivity.
-• Guides admins when configuring new integrations.
+4. Record Producers
 
-UI Policies
-• Highlights critical monitoring fields dynamically.
-• Simplifies configuration to reduce human errors.
+   • Enables admins to quickly register a new integration for monitoring.
+   
+   • Ensures consistent data capture for new third-party applications.
 
-UI Actions
+5. Workflows
+
+   • Automates threat detection to incident creation and escalation.
+   
+   • Connects monitoring results directly with SecOps and ITSM modules.
+
+6. Business Rules
+   
+   • Applies custom logic to detect anomalies in real time.
+   
+   • Initiates automated remediation actions when risks are found.
+
+7. Client Scripts
+
+   • Enhances UI forms with validation and interactivity.
+   
+   • Guides admins when configuring new integrations.
+
+8. UI Policies
+
+   • Highlights critical monitoring fields dynamically.
+   
+   • Simplifies configuration to reduce human errors.
+
+9. UI Actions
+
 • Provides quick options like Acknowledge, Escalate, Remediate.
+
 • Helps admins act instantly on flagged integrations.
 
-Registering and Triggering Events
-• Logs anomalies as ServiceNow events.
-• Triggers automated workflows for real-time responses.
+10. Registering and Triggering Events
+    
+   • Logs anomalies as ServiceNow events.
+   
+   • Triggers automated workflows for real-time responses.
 
-Email & Notifications
-• Sends alerts via email, Teams, or Slack when suspicious activity is detected.
-• Keeps admins and SecOps informed instantly.
+11. Email & Notifications
+    
+   • Sends alerts via email, Teams, or Slack when suspicious activity is detected.
+   
+   • Keeps admins and SecOps informed instantly.
 
 ---
 
 🎯 Use Cases :-
 
 ● Continuous monitoring of third-party applications integrated into ServiceNow
+
 ● Automated incident creation for malware or unauthorized activity
+
 ● Audit-ready compliance reporting for all integrations
+
 ● Improved visibility into health and risks across external apps
+
 ● Reduced downtime and faster incident resolution with real-time alerts
 
 ---
