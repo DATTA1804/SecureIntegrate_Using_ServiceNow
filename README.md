@@ -50,67 +50,67 @@ With SecureIntegrate, every connected application is continuously analyzed for h
 -> Approved Apps: If no threat is detected, the system updates dashboards and keeps apps in “Healthy” status.
 -> Flagged Apps: If malware or suspicious behavior is detected, incidents are created automatically for security teams.
 
-1. Tables & Fields:-
+1. Tables & Fields:
  
    • Organizes monitored application data, threat logs, and anomaly detection results.
 
    • Ensures all integration health data is structured and reportable.
 
-2. Roles & Group Membership
+2. Roles & Group Membership:
    
    • Restricts visibility of sensitive monitoring data.
 
    • Assigns responsibilities to administrators and SecOps teams.
 
-3. ACLs (Access Control Rules)
+3. ACLs (Access Control Rules):
 
    • Protects monitoring results and logs from unauthorized access.
    
    • Enforces compliance with IT security policies.
 
-4. Record Producers
+4. Record Producers:
 
    • Enables admins to quickly register a new integration for monitoring.
    
    • Ensures consistent data capture for new third-party applications.
 
-5. Workflows
+5. Workflows:
 
    • Automates threat detection to incident creation and escalation.
    
    • Connects monitoring results directly with SecOps and ITSM modules.
 
-6. Business Rules
+6. Business Rules:
    
    • Applies custom logic to detect anomalies in real time.
    
    • Initiates automated remediation actions when risks are found.
 
-7. Client Scripts
+7. Client Scripts:
 
    • Enhances UI forms with validation and interactivity.
    
    • Guides admins when configuring new integrations.
 
-8. UI Policies
+8. UI Policies:
 
    • Highlights critical monitoring fields dynamically.
    
    • Simplifies configuration to reduce human errors.
 
-9. UI Actions
+9. UI Actions:
 
-• Provides quick options like Acknowledge, Escalate, Remediate.
+   • Provides quick options like Acknowledge, Escalate, Remediate.
 
-• Helps admins act instantly on flagged integrations.
+   • Helps admins act instantly on flagged integrations.
 
-10. Registering and Triggering Events
+10. Registering and Triggering Events:
     
    • Logs anomalies as ServiceNow events.
    
    • Triggers automated workflows for real-time responses.
 
-11. Email & Notifications
+11. Email & Notifications:
     
    • Sends alerts via email, Teams, or Slack when suspicious activity is detected.
    
@@ -137,16 +137,21 @@ With SecureIntegrate, every connected application is continuously analyzed for h
 -> If someone wants to try it:
 
 ● Import the XML update set into ServiceNow.
+
 ● Commit changes.
+
 ● Access the SecureIntegrate application from the left navigation panel.
 
 ---
 
 📊 Future Enhancements :-
 
-● AI/ML-based anomaly and malware detection
+● Anomaly and malware detection
+
 ● Automated remediation of minor security issues
+
 ● Integration with external SIEM systems (Splunk, QRadar)
+
 ● Multi-tenant monitoring for multiple ServiceNow instances
 
 ---
